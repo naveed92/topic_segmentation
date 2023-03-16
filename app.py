@@ -1,15 +1,5 @@
-# TODO: Visualizations for topic, text
-# TODO: BERT model switch
-# TODO: Default input
-# TODO: Pre segmented sentences
-# TODO: Progress bar
-
 import streamlit as st
-import pandas as pd
-import re
-import json
-
-from utils import window, get_depths, get_local_maxima, compute_threshold, get_threshold_segments
+from src.utils import window, get_depths, get_local_maxima, compute_threshold, get_threshold_segments
 
 st.write("loading ...")
 
@@ -153,3 +143,9 @@ if (button==True) and input_text != "":
         print_list([s.text for s in segment])
         st.markdown("""---""")
     print_list([s.text for s in segmented[-1]])
+
+# TODO: Visualizations for topic, text
+# TODO: BERT model switch
+# TODO: Default input
+# TODO: Pre segmented sentences
+# TODO: Progress bar

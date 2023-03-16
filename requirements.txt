@@ -3,5 +3,5 @@ gensim
 numpy
 matplotlib
 scikit-learn
-Script
+scipy
 sentence_transformers
