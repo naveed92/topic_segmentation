@@ -1,6 +1,6 @@
-## Code for unsupervised topic segmentation based on the text-tiling algorithm
+## Code for Unsupervised Topic Segmentation based on the TextTiling algorithm
 
-### Code Explanation Here
+### Algorithm and Code Explanation Here
 https://www.naveedafzal.com/posts/an-introduction-to-unsupervised-topic-segmentation-with-implementation/
 
 ### About TextTiling
